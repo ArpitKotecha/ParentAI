@@ -1,0 +1,86 @@
+
+
+.logoContainer{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navlist{
+    display: flex;
+    gap: 45px;
+    align-items: center ;
+}
+
+.bigNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white ;
+    padding: 16px 32px;
+}
+
+.NavBtn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    height: 45px;
+    width: 145px;
+}
+
+.smallNav{
+    display: none;
+}
+
+.smallNavList{
+    display: flex;
+    gap: 45px;
+    align-items: center ;
+    color: white;
+    margin-top: 0px;
+    justify-content: center;
+    border-top: 1px solid #5b554f !important;
+    border-bottom: 1px solid #5b554f !important;
+}
+.smallNavTop{
+    display: flex;
+    color: white;
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .bigNav {
+    display: none;
+  }
+
+
+  .smallNav{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+    .smallNavTop{
+        padding: 0;
+        padding-right: 15px;
+    }
+
+    .smallNavList h2{
+        margin: 10px;
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 534px)   {
+    .smallNavList{
+        gap: 15px;
+    }
+}
