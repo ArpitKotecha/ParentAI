@@ -58,6 +58,23 @@ function About() {
                     </div>
                 </div>
             </div>
+            <div className={styles.stepsContainer}>
+                <div className={styles.stepHeading}>Test the future</div>
+                <div className={styles.stepsContent}>
+                    <div className={styles.step}>
+                        <div className={styles.stepTitle}>Step 1: Sign in to Khan Academy</div>
+                        <div className={styles.stepBody}>By signing in and joining Khan Labs, you'll help us develop transformative learning tools like Khanmigo. Your feedback is crucial in shaping the future of education.</div>
+                    </div>
+                    <div className={styles.step}>
+                        <div className={styles.stepTitle}>Step 2: Make a donation</div>
+                        <div className={styles.stepBody}>Khan Academy is a small nonprofit funded by donations. You will be asked to donate $20 or more monthly after being selected from the waitlist. Each interaction with Khanmigo incurs costs, and we need to expend significant resources to develop, test, and ensure safety of these new features. Please read our FAQ to learn why Khan Academy is asking for donations to support Khanmigo.</div>
+                    </div>
+                    <div className={styles.step}>
+                        <div className={styles.stepTitle}>Step 3: Receive an email confirmation</div>
+                        <div className={styles.stepBody}>You’ll receive an email with next steps if you meet the Khanmigo testing requirements (ages 18 or older in the United States). If a donation is not possible now, subscribe to our Khan Labs newsletter for news about AI and future testing opportunities!</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
