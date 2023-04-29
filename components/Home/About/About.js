@@ -63,7 +63,7 @@ function About() {
                 <div className={styles.stepsContent}>
                     <div className={styles.step}>
                         <div className={styles.stepTitle}>Step 1: Sign in to Khan Academy</div>
-                        <div className={styles.stepBody}>By signing in and joining Khan Labs, you'll help us develop transformative learning tools like Khanmigo. Your feedback is crucial in shaping the future of education.</div>
+                        <div className={styles.stepBody}>By signing in and joining Khan Labs, you will help us develop transformative learning tools like Khanmigo. Your feedback is crucial in shaping the future of education.</div>
                     </div>
                     <div className={styles.step}>
                         <div className={styles.stepTitle}>Step 2: Make a donation</div>
@@ -71,7 +71,41 @@ function About() {
                     </div>
                     <div className={styles.step}>
                         <div className={styles.stepTitle}>Step 3: Receive an email confirmation</div>
-                        <div className={styles.stepBody}>You’ll receive an email with next steps if you meet the Khanmigo testing requirements (ages 18 or older in the United States). If a donation is not possible now, subscribe to our Khan Labs newsletter for news about AI and future testing opportunities!</div>
+                        <div className={styles.stepBody}>You will receive an email with next steps if you meet the Khanmigo testing requirements (ages 18 or older in the United States). If a donation is not possible now, subscribe to our Khan Labs newsletter for news about AI and future testing opportunities!</div>
+                    </div>
+                    <button className={styles.joinWaitlistBtn}>Join the waitlist</button>
+                </div>
+            </div>
+            <div className={styles.aboutOrg}>
+                <div className={styles.aboutOrgTitle}>Who is Khan Academy?</div>
+                <div className={styles.aboutOrgDesc}>Khan Academy is a nonprofit that wants to make education free and accessible for all. By joining Khan Labs, you can help us develop new features that will empower hundreds of millions of learners around the world! You'll test and provide feedback on new learning tools to help shape the future of learning.</div>
+            </div>
+            <div className={styles.faqContainer}>
+                <div className={styles.faqTitle}>Frequently asked questions</div>
+                <div className={styles.faqs}>
+                    <div className={styles.faqCard}>
+                        What's the time commitment for being a Khanmigo tester?
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
+                    </div>
+                    <div className={styles.faqCard}>
+                        What is the time commitment for being a Khanmigo tester?
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
+                    </div>
+                    <div className={styles.faqCard}>
+                        How soon will I know if I got accepted to test Khanmigo? Can I check on my waitlist status?
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
+                    </div>
+                    <div className={styles.faqCard}>
+                        How do I sign up my children to test Khanmigo?
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
+                    </div>
+                    <div className={styles.faqCard}>
+                        Why arent you releasing Khanmigo to the public?
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
+                    </div>
+                    <div className={styles.faqCard}>
+                        Why is there a waitlist to test Khanmigo?
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
                     </div>
                 </div>
             </div>

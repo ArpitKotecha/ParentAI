@@ -106,6 +106,17 @@
     padding-left: 25%;
 }
 
+.joinWaitlistBtn{
+    user-select: none !important;
+    background: #1865f2 !important;
+    color: #ffffff !important;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    border-radius: 6px !important;
+    height: 56px !important;
+    width: 100% !important;
+}
+
 @media (max-width: 1024px) {
     .details{
         -webkit-box-direction: reverse !important;
@@ -137,6 +148,14 @@
     .textAlt{
         padding-left: 0;
     }
+
+    .txtTitle{
+        margin-top: 35px;
+    }
+
+    .stepHeading{
+        margin-bottom: 40px;
+    }
     
   }
   
@@ -144,6 +163,7 @@
   .stepsContainer{
     display: flex;
     margin-top: 140px;
+    margin-bottom: 140px;
   }
 
   .heading{
@@ -185,4 +205,87 @@
         flex-direction: column;
         padding: 0 5%;
     }
+
+    .aboutOrg{
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .aboutOrgTitle{
+        margin-bottom: 30px;
+    }
+
+    .faqContainer{
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .faqTitle{
+        margin-bottom: 30px;
+    }
+}
+
+.aboutOrg{
+    display: flex;
+    margin-bottom: 140px
+}
+
+.aboutOrgTitle{
+    flex: 1;
+    font-weight: 700 !important;
+    font-size: 38px !important;
+    line-height: 42px !important;
+}
+
+.aboutOrgDesc{
+    flex: 1;
+    font-size: 20px !important;
+    line-height: 36px !important;
+    margin-bottom: 80px !important;
+    display: block !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.faqContainer{
+    display: flex;
+}
+
+.faqTitle{
+    flex: 1;
+    font-weight: 700 !important;
+    font-size: 38px !important;
+    line-height: 42px !important;
+}
+
+.faqs{
+    flex: 1;
+}
+
+.faqCard{
+    -webkit-box-direction: normal !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    -webkit-align-items: stretch !important;
+    align-items: stretch !important;
+    border-width: 0px !important;
+    border-style: solid !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: row !important;
+   
+    position: relative !important;
+    border-radius: 10px !important;
+    border: 1px solid #d4d4d6 !important;
+    padding: 20px 54px 20px 24px !important;
+    font-size: 24px !important;
+    -webkit-font-smoothing: antialiased !important;
+    margin-bottom: 25px
 }
