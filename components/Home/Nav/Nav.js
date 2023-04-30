@@ -12,8 +12,6 @@ function Nav() {
                     <h1 className={styles.navText}>ParentAI</h1>
                 </div>
                 <div className={styles.navlist}>
-                    <h2>Khanmigo</h2>
-                    <h2>Who is Khan academy</h2>
                     <h2>FAQ</h2>
                     <button className={styles.NavBtn}>Join the Waitlist</button>
                 </div>
@@ -27,8 +25,6 @@ function Nav() {
                     <button className={styles.NavBtn}>Join the Waitlist</button>
                 </div>
                 <div className={styles.smallNavList}>
-                    <h2>Khanmigo</h2>
-                    <h2>Who is Khan academy</h2>
                     <h2>FAQ</h2>
                 </div>
             </div>
