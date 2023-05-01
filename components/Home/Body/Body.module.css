@@ -7,7 +7,7 @@
 }
 
 .title{
-    font-family: Source Serif Pro !important;
+    font-family: "Gilroy";
     font-weight: 400 !important;
     font-size: 80px !important;
     line-height: 100px !important;
@@ -20,7 +20,7 @@
 
 .desc{
     color: #ffffff !important;
-    font-family: Lato !important;
+    font-family: "Gilroy";
     font-weight: 400 !important;
     font-size: 20px !important;
     line-height: 30px !important;

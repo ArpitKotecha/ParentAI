@@ -13,7 +13,7 @@
     text-align: center;
     min-height: 0px !important;
     min-width: 0px !important;
-    font-family: Lato !important;
+    font-family: "Gilroy";
     font-weight: 700 !important;
     font-size: 38px !important;
     line-height: 42px !important;
@@ -35,7 +35,7 @@
 }
 .title{
     text-align: center;
-    font-family: Source Serif Pro !important;
+    font-family: "Gilroy";
     margin-bottom: 80px !important;
     font-weight: 400 !important;
     font-size: 80px !important;

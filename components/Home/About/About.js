@@ -16,7 +16,7 @@ function About() {
                 <div className={styles.details}>
                     <div className={styles.detailsText}>
                         <div className={styles.text}>
-                            <div class={styles.txtTitle}>nteract</div>
+                            <div class={styles.txtTitle}>interactive</div>
                             <div class={styles.txtDesc}>An innovative and interactive learning chatbot designed to help spark curiosity and learning in children.</div>
                         </div>
                     </div>
