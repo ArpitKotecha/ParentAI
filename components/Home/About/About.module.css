@@ -3,10 +3,21 @@
     justify-content: center;
 }
 
+.robotGif{
+    width: 100%;
+}
+
+.vidContainer{
+    width: 100%;
+    padding: 0px 200px;
+}
+.video{
+    width: 100%;
+}
 .content{
     max-width: 1120px !important;
-    color: black;
-    margin-top: 140px;
+    color: white;
+    /* margin-top: 40px; */
 }
 
 .upperTitle{
@@ -36,6 +47,7 @@
 .title{
     text-align: center;
     font-family: "Gilroy";
+    margin-top: 100px;
     margin-bottom: 80px !important;
     font-weight: 400 !important;
     font-size: 80px !important;
@@ -123,6 +135,17 @@
 }
 
 @media (max-width: 1024px) {
+
+    .title{
+        font-size: 60px !important;
+        margin-top: 0px !important;
+    }
+    .content{
+        max-width: 1120px !important;
+        color: white;
+        /* margin-top: 80px; */
+    }
+
     .details{
         -webkit-box-direction: reverse !important;
         -webkit-box-orient: vertical !important;
@@ -293,4 +316,11 @@
     font-size: 24px !important;
     -webkit-font-smoothing: antialiased !important;
     margin-bottom: 25px
+}
+
+
+@media (max-width: 732px){
+    .title{
+        font-size: 45px !important;
+    }
 }

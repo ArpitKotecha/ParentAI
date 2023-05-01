@@ -1,18 +1,52 @@
 .main{
    
-    background-image: url(https://cdn.kastatic.org/images/khan-labs/khan_labs_hero_background_texture.jpg);
-    
+    /* background-image: url("/public/bg video 1.1_high.mp4");
+     */
+        /* background-size: cover !important; */
+/* 
+     position: relative;
     width: 100% !important;
-    background-size: cover !important;
-
+ 
     background-repeat: no-repeat !important;
     background-position: center !important;
-    background-size: cover !important;
-    
+    background-size: cover !important; */
+    position: relative;
+    height: 950px;
 }
+
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 950px;
+    width: 100vw !important;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 1;
+  }
 
 .bodyContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media (max-width: 1024px){
+
+    .main{
+        height: 750px;
+    }
+    .video{
+        height: 750px;
+    }
 }

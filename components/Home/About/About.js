@@ -5,13 +5,16 @@ function About() {
   return (
     <div className={styles.container}>
         <div className={styles.content}>
+
+            <img className={styles.robotGif} src='Ai_robot_.gif'></img>
+
+            <div className={styles.vidContainer}>
+                <video autoPlay loop muted className={styles.video}>
+                    <source src="/zuAi_Vid.mp4" type="video/mp4" />
+                </video>
+            </div>
             
             <div className={styles.title}>Get a glimpse of the future of learning.</div>
-            <div className={styles.vidContainer}>
-                <div className={styles.vid}>
-                    <img src='https://cdn.kastatic.org/images/khan-labs/sal_announcement_image.png'></img>
-                </div>
-            </div>
             <div className={styles.detailsContainer}>
                 <div className={styles.details}>
                     <div className={styles.detailsText}>

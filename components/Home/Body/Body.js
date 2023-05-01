@@ -8,9 +8,7 @@ function Body() {
         <p class={styles.desc}>Supercharge your kids learning with <br/> world &apos; s most advanced AI co-pilot for kids and teens</p>
         <div className={styles.Btns}>
             <button className={styles.blueBtn}>Join the Waitlist</button>
-            
         </div>
-        <img className={styles.bodyGif} src='https://cdn.kastatic.org/images/khan-labs/khanmigo_hero_optimized.gif'></img>
     </div>
   )
 }
