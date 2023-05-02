@@ -97,6 +97,10 @@
   
   
   :root {
+    --colors-gradientRefSky: linear-gradient(45deg, #4F3CE4 14.64%, #00A0F5 50.01%, #1FD9C1 85.36%);
+    --colors-white8: hsla(0, 0%, 100%, 0.08);
+    --colors-grey0: hsl(0, 0%, 100%);
+    --colors-white35: hsla(0, 0%, 100%, 0.35);
     --black: #000000;
     --dark: #161616;
     --dark: #161616;
