@@ -9,8 +9,8 @@ function About() {
             <img className={styles.robotGif} src='Ai_robot_.gif'></img>
 
             <div className={styles.vidContainer}>
-                <video autoPlay loop muted className={styles.video}>
-                    <source src="/zuAi_Vid.mp4" type="video/mp4" />
+                <video controls className={styles.video}>
+                    <source src="/zuAI_Video.mp4" type="video/mp4" />
                 </video>
             </div>
             
@@ -65,25 +65,25 @@ function About() {
                 <div className={styles.stepHeading}>Test the future</div>
                 <div className={styles.stepsContent}>
                     <div className={styles.step}>
-                        <div className={styles.stepTitle}>Step 1: Sign in to Khan Academy</div>
-                        <div className={styles.stepBody}>By signing in and joining Khan Labs, you will help us develop transformative learning tools like Khanmigo. Your feedback is crucial in shaping the future of education.</div>
+                        <div className={styles.stepTitle}>Join the Waitlist</div>
+                        <div className={styles.stepBody}>By joining the waitlist, you will notify us that you are interested in our product and would be willing to use and try out the first few early versions of the product.</div>
                     </div>
                     <div className={styles.step}>
-                        <div className={styles.stepTitle}>Step 2: Make a donation</div>
-                        <div className={styles.stepBody}>Khan Academy is a small nonprofit funded by donations. You will be asked to donate $20 or more monthly after being selected from the waitlist. Each interaction with Khanmigo incurs costs, and we need to expend significant resources to develop, test, and ensure safety of these new features. Please read our FAQ to learn why Khan Academy is asking for donations to support Khanmigo.</div>
+                        <div className={styles.stepTitle}>Get Access</div>
+                        <div className={styles.stepBody}>Ones you are on the waitlist, gradually we will roll out the product and login details to you via the registered email. This will help us in getting constructive feedback as and when we onboard more users.</div>
                     </div>
                     <div className={styles.step}>
-                        <div className={styles.stepTitle}>Step 3: Receive an email confirmation</div>
-                        <div className={styles.stepBody}>You will receive an email with next steps if you meet the Khanmigo testing requirements (ages 18 or older in the United States). If a donation is not possible now, subscribe to our Khan Labs newsletter for news about AI and future testing opportunities!</div>
+                        <div className={styles.stepTitle}>For Beta use</div>
+                        <div className={styles.stepBody}>For our first 100 waitlist users, we will let them use the product for free and in return we would want to have some constructive feedback to help us improve. The pricing and subscription of the product will be notified via mail.</div>
                     </div>
                     <button className={styles.joinWaitlistBtn}>Join the waitlist</button>
                 </div>
             </div>
             <div className={styles.aboutOrg}>
-                <div className={styles.aboutOrgTitle}>Who is Khan Academy?</div>
-                <div className={styles.aboutOrgDesc}>Khan Academy is a nonprofit that wants to make education free and accessible for all. By joining Khan Labs, you can help us develop new features that will empower hundreds of millions of learners around the world! You will test and provide feedback on new learning tools to help shape the future of learning.</div>
+                <div className={styles.aboutOrgTitle}>Who is Zu AI?</div>
+                <div className={styles.aboutOrgDesc}>We are harnessing the power of Artificial Intelligence and Large Language Models to make learning addictive, adaptive, interactive and innovate for the next generation of kids. ZuAI is super safe and is completely designed keeping data privacy and ethics in mind so that kids get a top notch and a safe expirience.</div>
             </div>
-            <div className={styles.faqContainer}>
+            {/* <div className={styles.faqContainer}>
                 <div className={styles.faqTitle}>Frequently asked questions</div>
                 <div className={styles.faqs}>
                     <div className={styles.faqCard}>
@@ -111,7 +111,7 @@ function About() {
                         <svg width="24" height="24" viewBox="0 0 24 24" class="_4cyb3go"><path fill="#21242c" d="M17.293 8.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293z"></path></svg>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

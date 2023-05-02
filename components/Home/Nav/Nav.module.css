@@ -1,11 +1,8 @@
 
-
-.logoContainer{
-    display: flex;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.logoImage{
+    position: relative;
+    width: 200px;
+    height: 60px;
 }
 
 .navlist{
@@ -16,10 +13,13 @@
 
 .bigNav{
     display: flex;
+    height: 75px !important;
     justify-content: space-between;
     background-color: transparent;
     color: white ;
     padding: 16px 32px;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .NavBtn{
@@ -63,14 +63,23 @@
     display: flex;
     flex-direction: column;
   }
+
+  .smallNavTop{
+    padding-left: 0 !important;
+  }
 }
 
 
 
 @media (max-width: 768px) {
     .smallNavTop{
-        padding: 0;
+        padding-top: 10px;
         padding-right: 15px;
+    }
+
+    .logoImage{
+        width: 150px;
+        height: 50px;
     }
 
     .smallNavList h2{

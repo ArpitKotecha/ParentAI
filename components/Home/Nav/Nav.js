@@ -7,9 +7,8 @@ function Nav() {
     <>
         <div className={styles.main}>
             <div className={styles.bigNav}>
-                <div className={styles.logoContainer}>
-                    <Image src={'/ZuPay-logo.png'} alt="zupay" width={70} height={70}></Image>
-                    <h1 className={styles.navText}>ParentAI</h1>
+                <div className={styles.logoImage}>
+                    <Image src={'/ZuAi_Logo.svg'} alt="zupay" fill={true}></Image>
                 </div>
                 <div className={styles.navlist}>
                     <h2>FAQ</h2>
@@ -18,10 +17,9 @@ function Nav() {
             </div>
             <div className={styles.smallNav}>
                 <div className={styles.smallNavTop}>
-                    <div className={styles.logoContainer}>
-                        <Image src={'/ZuPay-logo.png'} alt="zupay" width={70} height={70}></Image>
-                        <h1 className={styles.navText}>ParentAI</h1>
-                    </div>       
+                    <div className={styles.logoImage}>
+                        <Image src={'/ZuAi_Logo.svg'} alt="zupay" fill={true}></Image>
+                    </div>      
                     <button className={styles.NavBtn}>Join the Waitlist</button>
                 </div>
                 <div className={styles.smallNavList}>
