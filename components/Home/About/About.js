@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useCallback, useState } from 'react'
 import styles from "/components/Home/About/About.module.css";
+import JoinWaitlistForm from '../JoinWaitlistForm/JoinWaitlistForm';
 
 function About() {
 
@@ -8,15 +9,34 @@ function About() {
     const handlePlayClick = () => {
         setShowVideo(true);
     };
+
+    const [showform, setShowForm] = useState(false);
+
+    const formHandler = useCallback((value) => {
+      if (value) {
+        setShowForm(true);
+      } else {
+        setShowForm(false);
+      }
+      console.log("form")
+    }, []);
+
     
   return (
     <div className={styles.container}>
+
+        {showform && 
+            <div className={styles.formContainer}>
+            <div className={styles.formOverlay}>
+                <JoinWaitlistForm closeForm={() => formHandler(false)}/>
+            </div>
+            </div>
+        }
+
         <div className={styles.content}>
 
             <img className={styles.robotGif} src='Ai_robot_.gif'></img>
 
-           
-            
             <div className={styles.title}>Get a glimpse of the future of learning.</div>
 
             {/* <div className={styles.vidContainer}>
@@ -102,7 +122,7 @@ function About() {
                         <div className={styles.stepTitle}>For Beta use</div>
                         <div className={styles.stepBody}>For our first 100 waitlist users, we will let them use the product for free and in return we would want to have some constructive feedback to help us improve. The pricing and subscription of the product will be notified via mail.</div>
                     </div>
-                    <button className={styles.joinWaitlistBtn}>Join the waitlist</button>
+                    <button className={styles.joinWaitlistBtn} onClick={() => formHandler(true)}>Join the waitlist</button>
                 </div>
             </div>
             <div className={styles.aboutOrg}>
