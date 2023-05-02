@@ -11,7 +11,7 @@ function About() {
             <div className={styles.vidContainer}>
                 <video controls className={styles.video}>
                     {/* <source src="/zuAI_Video.mp4" type="video/mp4" /> */}
-                    <source src="https://streamable.com/qs1ea3" type="video/mp4" />
+                    <source src="/ZuAI_Video_New.mp4" type="video/mp4" />
                 </video>
             </div>
             
