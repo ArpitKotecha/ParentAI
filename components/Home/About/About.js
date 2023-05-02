@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "/components/Home/About/About.module.css";
 
 function About() {
+
+    const [showVideo, setShowVideo] = useState(false);
+
+    const handlePlayClick = () => {
+        setShowVideo(true);
+    };
+    
   return (
     <div className={styles.container}>
         <div className={styles.content}>
@@ -12,11 +19,26 @@ function About() {
             
             <div className={styles.title}>Get a glimpse of the future of learning.</div>
 
-            <div className={styles.vidContainer}>
+            {/* <div className={styles.vidContainer}>
                 <video controls className={styles.video}>
-                    {/* <source src="/zuAI_Video.mp4" type="video/mp4" /> */}
                     <source src="/ZuAI_Video_New.mp4" type="video/mp4" />
                 </video>
+            </div> */}
+
+            <div className={styles.wrapper}>
+                {showVideo ? (
+                    <div className={styles.vidContainer}>
+                    <video controls autoPlay className={styles.video}>
+                        <source src="/ZuAI_Video_New.mp4" type="video/mp4" />
+                    </video>
+                    </div>
+                ) : (   
+                    <div className={styles.thumbnailContainer}>
+                    <img src="/thumbnail.png" alt="video thumbnail" className={styles.thumbnail} />
+                    
+                    <img className={styles.playButton} onClick={handlePlayClick} src='/play.png'></img>
+                    </div>
+                )}
             </div>
             
             <div className={styles.detailsContainer}>

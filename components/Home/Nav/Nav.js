@@ -11,7 +11,7 @@ function Nav( {formHandler} ) {
                     <Image src={'/ZuAi_Logo.svg'} alt="zupay" fill={true}></Image>
                 </div>
                 <div className={styles.navlist}>
-                    <h2>FAQ</h2>
+                    {/* <h2>FAQ</h2> */}
                     <button className={styles.NavBtn} onClick={() => formHandler(true)}>Join the Waitlist</button>
                 </div>
             </div>
@@ -22,9 +22,9 @@ function Nav( {formHandler} ) {
                     </div>      
                     <button className={styles.NavBtn} onClick={() => formHandler(true)} >Join the Waitlist</button>
                 </div>
-                <div className={styles.smallNavList}>
+                {/* <div className={styles.smallNavList}>
                     <h2>FAQ</h2>
-                </div>
+                </div> */}
             </div>
         </div>
     </>
