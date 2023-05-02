@@ -420,6 +420,10 @@
     margin-bottom: 0 !important;
 }
 
+.playButton {
+    width: 25px;
+    height: 25px;
+}
 .detailsContainer{
     margin-top: 50px !important;
 }
