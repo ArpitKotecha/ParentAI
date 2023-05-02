@@ -441,3 +441,10 @@
       }
     
 }
+
+@media (max-width: 478px){
+.title{
+    text-align: center;
+        font-size: 30px !important;
+}
+}
