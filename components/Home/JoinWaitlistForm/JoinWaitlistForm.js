@@ -14,12 +14,12 @@ function JoinWaitlistForm( {closeForm}) {
         <div className={styles.formHeader}>
             <div className={styles.title}>Join the<span className={styles.waitListSpan}>&nbsp;waitlist</span></div>
         </div>
-        <div className={styles.googleBtnDiv}>
+        {/* <div className={styles.googleBtnDiv}>
                 <div className={styles.googleBtn}>
                     <img className={styles.googleLogo} src="https://d1nc6vzg2bevln.cloudfront.net/images/general/google.svg" width="13" height="13" />
                     <p className={styles}>Join with Google</p>
                 </div>
-        </div>
+        </div> */}
  
         <div className={styles.orGap}>
             <p className={styles.or}>or</p>

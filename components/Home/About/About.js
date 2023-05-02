@@ -8,6 +8,10 @@ function About() {
 
             <img className={styles.robotGif} src='Ai_robot_.gif'></img>
 
+           
+            
+            <div className={styles.title}>Get a glimpse of the future of learning.</div>
+
             <div className={styles.vidContainer}>
                 <video controls className={styles.video}>
                     {/* <source src="/zuAI_Video.mp4" type="video/mp4" /> */}
@@ -15,7 +19,6 @@ function About() {
                 </video>
             </div>
             
-            <div className={styles.title}>Get a glimpse of the future of learning.</div>
             <div className={styles.detailsContainer}>
                 <div className={styles.details}>
                     <div className={styles.detailsText}>
