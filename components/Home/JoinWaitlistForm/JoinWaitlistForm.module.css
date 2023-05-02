@@ -20,7 +20,7 @@
 
   .formContainer{
     display: flex;
-    transform: translateY(-20px);
+    transform: translateY(-10px);
     flex-direction: column;
       width: 100%;
     height: 300px;
