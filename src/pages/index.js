@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <meta property="og:image" content="https://ibb.co/s6wwCg3"/>
+      <meta property="og:image" content="https://iili.io/HSYmSDb.png"/>
       <meta property="og:image:type" content="image/png"/>
       <meta property="og:image:width" content="1024"/>
       <meta property="og:image:height" content="1024"/>
