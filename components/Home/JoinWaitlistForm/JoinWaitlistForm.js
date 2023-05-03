@@ -39,7 +39,10 @@ function JoinWaitlistForm( {closeForm}) {
             return;
         }
 
-        setLoader(true);
+        closeForm();
+        //setLoader(true);
+        alert("You are on the waitlist😎. Thank you for signing up on our waitlist. We will notify you soon without updates and early beta trials.")
+
         try{
             const response = await fetch(
         
@@ -54,18 +57,21 @@ function JoinWaitlistForm( {closeForm}) {
                 },
                 }
             );
+
+            setLoader(false)
+            closeForm();
         
-            if(response.status === 200){
-                setLoader(false)
-                closeForm();
-                alert("Thankyou for joining our waitlist. We will notify you via the registered email")
+            // if(response.status === 200){
+            //     setLoader(false)
+            //     closeForm();
+            //     alert("You are on the waitlist😎. Thank you for signing up on our waitlist. We will notify you soon without updates and early beta trials.")
                 
-            }
+            // }
         
-            if (!response.ok) {
-                const error = await response.json();
-                throw new Error(error.detail || "Something went wrong");
-            }
+            // if (!response.ok) {
+            //     const error = await response.json();
+            //     throw new Error(error.detail || "Something went wrong");
+            // }
         
             const data = await response.json();
             console.log("response", data);
@@ -73,8 +79,8 @@ function JoinWaitlistForm( {closeForm}) {
         
             }
         catch (err) {
-        alert(err);
-        console.log(err)
+        // alert(err);
+        // console.log(err)
         }
     }
 
@@ -122,7 +128,7 @@ function JoinWaitlistForm( {closeForm}) {
 
             <div className={styles.userTypeDiv}>
                     <select className={styles.dropdown} value={selectedOption} onChange={handleOptionChange}>
-                        <option className={styles.select_option_iam} disabled selected value="">I am</option>
+                        <option className={styles.select_option_iam} disabled selected value="">I am a</option>
                         <option className={styles.select_option} value="teacher">Teacher</option>
                         <option className={styles.select_option} value="parent">Parent</option>
                         <option className={styles.select_option} value="student">Student</option>
