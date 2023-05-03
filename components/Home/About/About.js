@@ -70,12 +70,12 @@ function About() {
                         </div>
                     </div>
                     <div className={styles.detailsImage}>
-                        <img src='/AI Chat Screen 2.png'></img>
+                        <img src='/AI_Chat_Screen2.png'></img>
                     </div>
                 </div>
                 <div className={styles.detailsAlt}>
                     <div className={styles.detailsImage}>
-                        <img src='/AI Chat Screen.png'></img>
+                        <img src='/AI_Chat_Screen.png'></img>
                     </div>
                     <div className={styles.detailsText}>
                         <div className={styles.textAlt}>
@@ -92,7 +92,7 @@ function About() {
                         </div>
                     </div>
                     <div className={styles.detailsImage}>
-                        <img className={styles.phoneImg} src='/image.png'></img>
+                        <img className={styles.phoneImg} src='/AI_Chat_phone.png'></img>
                     </div>
                 </div>
                 {/* <div className={styles.detailsAlt}>
