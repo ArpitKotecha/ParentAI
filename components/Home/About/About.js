@@ -66,7 +66,7 @@ function About() {
                     <div className={styles.detailsText}>
                         <div className={styles.text}>
                             <div class={styles.txtTitle}>interactive</div>
-                            <div class={styles.txtDesc}>An innovative and interactive learning chatbot designed to help spark curiosity and learning in children.</div>
+                            <div class={styles.txtDesc}>An innovative and interactive learning chatbot designed to help spark curiosity and learning in kids and teens.</div>
                         </div>
                     </div>
                     <div className={styles.detailsImage}>
@@ -80,7 +80,7 @@ function About() {
                     <div className={styles.detailsText}>
                         <div className={styles.textAlt}>
                             <div class={styles.txtTitle}>Adaptive</div>
-                            <div class={styles.txtDesc}>Quizzes, notes, lesson plan and more at the fingertips. It is so easy that it feelslike talking to a real teacher</div>
+                            <div class={styles.txtDesc}>Quizzes, notes, lesson plan and more at the fingertips. It is so easy that it feels like talking to a real teacher.</div>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ function About() {
                     <div className={styles.detailsText}>
                         <div className={styles.text}>
                             <div class={styles.txtTitle}>Learn with Fun</div>
-                            <div class={styles.txtDesc}>Kids & teens can discuss personal finance, science, and math lessons with their favorite characters, such as harry potter, Iron Man, and other fun characters.</div>
+                            <div class={styles.txtDesc}>Kids & teens can discuss personal finance, science, and math lessons with their favorite characters, such as Harry Potter, Ironman, and other fun characters.</div>
                         </div>
                     </div>
                     <div className={styles.detailsImage}>
@@ -120,13 +120,13 @@ function About() {
                     </div>
                     <div className={styles.step}>
                         <div className={styles.stepTitle}>For Beta use</div>
-                        <div className={styles.stepBody}>For our first 100 waitlist users, we will let them use the product for free and in return we would want to have some constructive feedback to help us improve. The pricing and subscription of the product will be notified via mail.</div>
+                        <div className={styles.stepBody}>For our first 100 waitlist users, we will let them use the product for free and in return we would want to have some constructive feedback to help us improve.</div>
                     </div>
                     <button className={styles.joinWaitlistBtn} onClick={() => formHandler(true)}>Join the waitlist</button>
                 </div>
             </div>
             <div className={styles.aboutOrg}>
-                <div className={styles.aboutOrgTitle}>Who is Zu AI?</div>
+                <div className={styles.aboutOrgTitle}>Who is ZuAI?</div>
                 <div className={styles.aboutOrgDesc}>We are harnessing the power of Artificial Intelligence and Large Language Models to make learning addictive, adaptive, interactive and innovate for the next generation of kids. ZuAI is super safe and is completely designed keeping data privacy and ethics in mind so that kids get a top notch and a safe expirience.</div>
             </div>
             {/* <div className={styles.faqContainer}>
