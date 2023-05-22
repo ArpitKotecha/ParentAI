@@ -24,7 +24,7 @@
     display: -webkit-flex !important;
     display: flex !important;
     width: 100% !important;
-    background-color: #54314C !important;
+    background-color: #1865f2 !important;
 }
 
 .main{
@@ -112,6 +112,8 @@
     color: #1865f2 !important;
     padding-left: 32px !important;
     padding-right: 32px !important;
+    border: none;
+    outline: none;
     border-radius: 6px !important;
     height: 56px !important;
     margin: 40px 15px 15px 15px !important;
